@@ -11,7 +11,7 @@ app.use(express.json()); // To parse JSON data
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:5173', // Allow requests from this origin
+  origin: 'https://full-stack-task-management-app-lake.vercel.app/', // Allow requests from this origin
   credentials: true, // Allow cookies and credentials
 }));
 
