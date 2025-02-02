@@ -18,7 +18,15 @@ function App() {
         <Route path="/" element={<Cards />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/itemdetails/:id" element={<ItemDetails />} />
-        <Route path="/order/orders" element={<Orders />} />
+        {/* ✅ Protected Route for Orders Page */}
+        <Route
+          path="/order/orders"
+          element={
+            <ProtectedRoute>
+              <Orders />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </>
   );
