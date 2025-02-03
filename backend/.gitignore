@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
+# # Password : tsyTOZxdA2WCeP57
+# PORT=5000
+
 ### Node ###
 # Logs
 logs
@@ -141,3 +144,4 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+.vercel
