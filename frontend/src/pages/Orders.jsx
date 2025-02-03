@@ -15,7 +15,7 @@ const Orders = () => {
 
       try {
         const response = await axios.get(
-          `https://full-stack-task-management-app-n69j.vercel.app/api/order/orders`
+          `https://full-stack-task-management-backend-fmmf.onrender.com/api/order/orders`
         );
         setOrders(response.data);
         console.log("Orders:", response.data);
