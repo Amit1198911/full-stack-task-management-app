@@ -34,7 +34,7 @@ const LoginPage = () => {
       localStorage.setItem("token", token);
       localStorage.setItem("userId", userId);
 
-      navigate("/"); // Redirect to the home page
+      navigate("/cards"); // Redirect to the home page
     } catch (error) {
       console.error("Login Error:", error.response?.data);
       setError(

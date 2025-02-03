@@ -15,8 +15,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Cards />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/cards" element={<Cards />} />
         <Route path="/itemdetails/:id" element={<ItemDetails />} />
         {/* ✅ Protected Route for Orders Page */}
         <Route path="/order/orders" element={<Orders />} />
